@@ -1,0 +1,60 @@
+.rb{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start;
+    align-items: start; */
+    /* width: 485px;
+    height: 21px; */
+}
+.rb input{
+    margin-right: 7px;
+    /* width: 485px; */
+    /* height: 18px; */
+    /* justify-content: start; */
+    /* margin-bottom: 5px; */
+}
+.rb label{
+    height: 18px;
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+.change-lang{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 566px;
+}
+h3{
+    font-weight: medium;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.change-lang p{
+    font-size: 14px;
+    margin-bottom: 20px;
+} 
+.sinpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 126px;
+    width: 100%;
+}
+.sinpage p{
+    font-size: 13px;
+    margin-bottom: -1px;
+}
+.sinpage button
+{
+    width: 230px;
+    height: 28px;
+    background-color: orange;
+    border: 0.2px solid rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#p{
+    font-size: 11px;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* overflow: hidden; */
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: -56px;
+    
+}
+.form{
+    width: 348px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.1px solid rgb(141, 137, 137);
+   
+
+}
+h2{
+    font-weight: 520;
+    margin-bottom: 10px;
+}
+.hi{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.form button{
+    width: 100%;
+    height: 30px;
+    border: 1px none black;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(255, 217, 0);
+    margin-bottom: 20px;
+}
+#hi{
+    font-size: 14px;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+.help{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.next{
+    margin-top: 20px;
+}
+.next p{
+    margin-bottom: 5px;
+}
+.logo{
+    height: 65px;
+    width: 190px;
+    background-image: url(images/hi.png);
+    background-size: cover;
+    background-position: center;
+}
+#but{
+    background-color: white;
+    border: 1px solid rgb(141, 137, 137);
+    width: 102%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 12px;
+}
+.register p{
+    color: rgb(141, 137, 137);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.conditions{
+    width: 100%;
+    height: 65px;
+    background-color: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.conditions a{
+    margin-right: 20px;
+
+}
+.conditions p{
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
